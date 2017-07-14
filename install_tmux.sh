@@ -5,7 +5,7 @@ PWD=`pwd`
 wget https://github.com/tmux/tmux/releases/download/2.1/tmux-2.1.tar.gz
 tar -xvf tmux-2.1.tar.gz ; cd tmux-2.1
 
-apt-get install libncurses5-dev
+apt-get install libncurses5-dev libevent-dev -y
 
 ./configure && make
 
